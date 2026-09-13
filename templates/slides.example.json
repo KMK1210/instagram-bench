@@ -1,0 +1,51 @@
+{
+  "_comment": "인스타 캐러셀 9장 예제 — 에이나우 'Claude Code 7가지 꿀팁' 실증 버전. 본인 주제에 맞게 slides[].prompt 를 수정하세요. common_style 은 디자인 DNA 라 놔두는 걸 권장.",
+  "common_style": "Instagram carousel slide design, 4:5 aspect ratio (1080x1350 px). Magazine editorial style, premium dark minimalist. - Background: near-black #131316. - Primary accent color: warm orange #CF5C3F. - Primary text: pure white #FFFFFF. - Secondary text: white 40% opacity. - Typography: Korean sans-serif (Pretendard-like), bold headlines, monospace for code. - Layout: generous whitespace, left-aligned, tech magazine feel. - Mood: professional, developer-focused, clean, modern.",
+  "slides": [
+    {
+      "n": 1,
+      "role": "Cover",
+      "prompt": "COVER SLIDE for carousel titled \"Claude Code Guide\". Layout: - Small orange uppercase label \"CLAUDE CODE GUIDE\" at bottom-left. - Large bold Korean headline: \"해커톤 우승자의\" (white), then \"꿀팁 7가지\" (orange). - Short orange underline bar below headline. - Subtitle in gray: \"저장 필수. 하나씩 적용해보세요.\" - Huge empty top area (composition breathing room)."
+    },
+    {
+      "n": 2,
+      "role": "TIP 01 - CLAUDE.md",
+      "prompt": "TIP 01 slide. - Top-left small orange label \"TIP 01\". - Korean headline (white + \"CLAUDE.md\" in orange): \"프로젝트 루트에 CLAUDE.md 하나면 응답이 달라진다\". - Middle: ASCII-art style folder tree in monospace font highlighting CLAUDE.md in orange. - Bottom tags in gray: \"기술 스택   코딩 컨벤션   빌드 명령어\"."
+    },
+    {
+      "n": 3,
+      "role": "TIP 02 - Plan Mode",
+      "prompt": "TIP 02 slide. Korean headline: \"코딩 전에 Plan Mode 먼저\" (\"Plan Mode\" in orange). Middle: 3 large circular icons in a horizontal row — 분석 → 계획(orange, glowing) → 실행. Below circles: dark pill button \"Shift + Tab\". Bottom caption gray: \"계획 없는 코딩은 시간 낭비.\""
+    },
+    {
+      "n": 4,
+      "role": "TIP 03 - Subagents parallel",
+      "prompt": "TIP 03 slide. Korean headline: \"서브에이전트로 병렬 처리\" (\"병렬 처리\" in orange). Middle: 2x2 grid of 4 dark terminal-card panels (agent-1 lint / agent-2 test / agent-3 build / agent-4 docs), green checks. Bottom comparison: \"순차 40분\" (struck through gray) → \"병렬 12분\" (big orange monospace)."
+    },
+    {
+      "n": 5,
+      "role": "TIP 04 - /compact",
+      "prompt": "TIP 04 slide. Korean headline: \"대화 길어지면 /compact\" (\"/compact\" in orange). Middle: huge orange monospace text \"/compact\" with subtle gray caption \"지금까지 작업 내용 요약해줘\". Bottom: two horizontal progress bars — Before 92% (orange) / After 24% (green). Caption gray: \"30턴 넘으면 반드시.\""
+    },
+    {
+      "n": 6,
+      "role": "TIP 05 - Worktree",
+      "prompt": "TIP 05 slide. Korean headline: \"Worktree로 안전하게 실험해라\" (\"Worktree\" in orange). Body: two contrasting blocks — Top: X mark + \"main에서 직접 실험 → 망하면 되돌리기 힘듦\". Bottom: arrow + \"Worktree로 격리된 복사본 / 성공 → merge / 실패 → 삭제 / 리스크 제로\" (마지막 줄 green). Caption: \"원본은 그대로, 실험은 자유롭게\"."
+    },
+    {
+      "n": 7,
+      "role": "TIP 06 - Slash commands",
+      "prompt": "TIP 06 slide. Korean headline: \"나만의 슬래시 커맨드\" (\"슬래시 커맨드\" in orange). Middle: dark rounded-corner command palette UI mock with 4 rows (/review /test /refactor /doc). Bottom monospace: \".claude/commands/review.md\" with caption \"프롬프트를 .md 파일로 저장하면 끝\"."
+    },
+    {
+      "n": 8,
+      "role": "TIP 07 - Hooks",
+      "prompt": "TIP 07 slide. Korean headline: \"Hooks로 품질을 자동화해라\" (\"Hooks\" in orange). Middle: vertical flow diagram of 5 circular badges — H(orange) Hook: PreToolUse / L(yellow) Lint+Type / T(green) Test / S(blue) Security / OK(bold orange) 통과 시에만 반영. Caption: \"Hook 한 번 설정 = 영구 가드레일\"."
+    },
+    {
+      "n": 9,
+      "role": "Outro",
+      "prompt": "OUTRO / closing slide. Vertically centered, left-aligned: - Small orange uppercase label \"SAVE & SHARE\". - Large bold Korean headline: \"하나씩 적용하면 체감이 확 됩니다\" (with \"확\" in large orange). - Short orange underline bar. - Gray subtitle: \"저장해두고 하나씩 써보세요.\" Most of canvas empty dark space (premium editorial breathing room)."
+    }
+  ]
+}
